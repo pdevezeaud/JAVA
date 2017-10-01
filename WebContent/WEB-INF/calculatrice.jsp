@@ -13,7 +13,7 @@
 <label >Nombre 1 : </label>
 <input type="number" name="operande1"><br><br>
 
-<select name="operateur" size="1">
+<select name="operateur" size="2">
                 <option value="+">+</option>
                 <option value="-">-</option>
                 <option value="x">x</option>
@@ -23,9 +23,12 @@
 <label>Nombre 2 : </label>
 <input name="operande2" type="number"><br><br>
 
-<input type="submit" value="Envoyer"><br><br>
+<input type="submit" value="Total" ><br><br>
 
-<label>Resultat : </label>
+<label>Resultat : ${ calc.resultat } </label>
+<p>
+
+</p>
 
 </form>     
     </body>

@@ -8,7 +8,4 @@
     <servlet-name>Calculette</servlet-name>
     <url-pattern>/calculatrice</url-pattern>
   </servlet-mapping>
-  
-
 </web-app>
-
