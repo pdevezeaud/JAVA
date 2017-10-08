@@ -6,8 +6,7 @@ public class Operation {
 	private String operateur;
 	private int resultat;
 	
-	
-        
+	  
  public Operation(int operande1, String operateur, int operande2) {
             
 	        this.operande1 = operande1;
@@ -15,7 +14,7 @@ public class Operation {
             this.operande2 = operande2;
             this.resultat = resultat;
             
-       
+          
              
             if (this.operateur.equals("+")) {
                 this.resultat = this.operande1 + this.operande2;

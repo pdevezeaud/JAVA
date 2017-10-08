@@ -39,8 +39,9 @@ public class Calculette extends HttpServlet {
 	         Integer.parseInt(request.getParameter("operande1")),
 	         request.getParameter("operateur"),
 	         Integer.parseInt(request.getParameter("operande2")));
-	 
-	         request.setAttribute("calc", calc);
+		
+	
+	  request.setAttribute("calc", calc);
 	    
 	    this.getServletContext().getRequestDispatcher("/WEB-INF/calculatrice.jsp").forward(request, response);
 		
